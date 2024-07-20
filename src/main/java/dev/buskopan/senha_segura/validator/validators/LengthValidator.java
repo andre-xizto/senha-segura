@@ -1,7 +1,9 @@
 package dev.buskopan.senha_segura.validator.validators;
 
 import dev.buskopan.senha_segura.validator.Validator;
+import org.springframework.stereotype.Component;
 
+@Component
 public class LengthValidator implements Validator {
 
     @Override
