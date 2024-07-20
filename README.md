@@ -57,7 +57,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/andre-xizto/" title="GitHub de André Xisto">
+      <a href="https://github.com/andre-xizto/" title="GitHub de André Xisto" target="_blank">
         <img src="https://avatars.githubusercontent.com/u/35929740" width="100px;" alt="Foto do André Xisto no GitHub"/><br>
         <sub>
           <b>André Xisto</b>
