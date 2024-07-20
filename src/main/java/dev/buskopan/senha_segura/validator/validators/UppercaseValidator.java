@@ -13,8 +13,8 @@ public class UppercaseValidator implements Validator {
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(pass);
         if (!matcher.find()) {
-            return null;
+            return "Password must have at least one uppercase character";
         }
-        return "Password must have at least one uppercase character";
+        return null;
     }
 }
