@@ -2,10 +2,12 @@ package dev.buskopan.senha_segura.service.impl;
 
 import dev.buskopan.senha_segura.service.PasswordService;
 import dev.buskopan.senha_segura.validator.Validator;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Service
 public class PasswordServiceImpl implements PasswordService {
 
     private final List<Validator> validators;
